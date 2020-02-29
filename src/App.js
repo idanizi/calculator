@@ -1,25 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Box from '@material-ui/core/Box'
+import Screen from './components/Screen'
+import Buttons from './components/Buttons'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box display="flex" justifyContent="center" alignItems="center" height="100vh">
+      <Box>
+        <Screen />
+        <Buttons />
+      </Box>
+    </Box>
   );
 }
 
