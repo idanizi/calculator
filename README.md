@@ -12,8 +12,5 @@ yarn install
 yarn start
 ```
 
-## See
-
-
 ## Author
 Idan Izicovich <idanizi@gmail.com>
