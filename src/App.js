@@ -16,7 +16,7 @@ function App() {
           <Buttons />
         </Box>
       </Box>
-      <footer>© 2020 Idan Izicovich <span role="img">😎</span></footer>
+      <footer>Made with <span style={{color: "#f00"}}>❤</span> by Idan Izicovich</footer>
     </main>
   );
 }
